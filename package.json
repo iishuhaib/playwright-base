@@ -1,0 +1,16 @@
+{
+  "name": "parkly-tests",
+  "version": "1.0.0",
+  "description": "Playwright tests for Parkly Admin Portal",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:headed": "npx playwright test --headed"
+  },
+  "keywords": ["playwright", "testing", "parkly"],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.40.0"
+  }
+}
